@@ -1,0 +1,2 @@
+*{margin:0;padding:0}*,:after,:before{box-sizing:border-box}#html{word-break:break-all}#bagua{position:fixed;top:20px;left:50%;transform:translateX(-50%)}#bagua:after,#bagua:before{content:"";position:absolute;display:block}@media (max-width:500px){#html{height:50vh;overflow:auto}#baguaWrapper{height:40vh}#bagua{position:relative;top:20%;right:50%;transform:translateX(-50%)}}
+/*# sourceMappingURL=style.4d91f474.css.map */

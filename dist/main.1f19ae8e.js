@@ -120,7 +120,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"main.js":[function(require,module,exports) {
 var html = document.querySelector("#html");
 var style = document.querySelector("#style");
-var string = "\n/* \u4F60\u597D\uFF0C\u6211\u5728\u5B66\u4E60\u9965\u4EBA\u8C37\u7684\u524D\u7AEF\u8BFE\u7A0B\n * \u5FEB\u6765\u548C\u6211\u4E00\u8D77\u5B66\u5427\uFF01\n * \u5148\u6765\u753B\u4E00\u4E2A\u516B\u5366\u56FE\n * \u9996\u5148\u51C6\u5907\u4E00\u4E2Adiv\n**/\n#bagua {\n  border: 1px solid green;\n  width: 200px;\n  height: 200px;\n}\n/* \u7136\u540E\u628Adiv\u53D8\u6210\u4E00\u4E2A\u5706\n**/\n#bagua {\n  border-radius: 50%;\n  box-shadow:0 0 3px rgba(0,0,0,0.5);\n  border: none;\n}\n/* \u516B\u5366\u662F\u9634\u9633\u5F62\u6210\u7684\n * \u4E00\u9ED1\u4E00\u767D\n**/\n#bagua {\n  background: linear-gradient(90deg, rgba(255,255,255,1)\n  0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,\n  0,0,1) 100%);\n}\n/* \u52A0\u4E24\u4E2A\u9B54\u4E38 */\n#bagua::before {\n  width: 100px;\n  height: 100px;\n  top: 0;\n  left: 50%;\n  background: #000;\n  transform: translateX(-50%);\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,255,255,1) 0%,\n  rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);\n}\n#bagua::after {\n  width: 100px;\n  height: 100px;\n  bottom: 0;\n  left: 50%;\n  background:#fff;\n  transform: translateX(-50%);\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(0,0,0,1) 0%,\n  rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);\n}\n";
+var string = "\n/* \u4F60\u597D\uFF0C\u6211\u5728\u5B66\u4E60\u9965\u4EBA\u8C37\u7684\u524D\u7AEF\u8BFE\u7A0B\n * \u5FEB\u6765\u548C\u6211\u4E00\u8D77\u5B66\u5427\uFF01\n * \u5148\u6765\u753B\u4E00\u4E2A\u516B\u5366\u56FE\n * \u9996\u5148\u51C6\u5907\u4E00\u4E2Adiv\n**/\n#bagua {\n  border: 1px solid green;\n  width: 200px;\n  height: 200px;\n}\n/* \u7136\u540E\u628Adiv\u53D8\u6210\u4E00\u4E2A\u5706\n**/\n#bagua {\n  border-radius: 50%;\n  box-shadow: 0 0 3px rgba(0,0,0,0.5);\n  border: none;\n}\n/* \u516B\u5366\u662F\u9634\u9633\u5F62\u6210\u7684\n * \u4E00\u9ED1\u4E00\u767D\n**/\n#bagua {\n  background: linear-gradient(90deg, rgba(255,255,255,1)\n  0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,\n  0,0,1) 100%);\n}\n/* \u52A0\u4E24\u4E2A\u9B54\u4E38 */\n#bagua::before {\n  width: 100px;\n  height: 100px;\n  top: 0;\n  left: 50%;\n  background: #000;\n  transform: translateX(-50%);\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,255,255,1) 0%,\n  rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);\n}\n#bagua::after {\n  width: 100px;\n  height: 100px;\n  bottom: 0;\n  left: 50%;\n  background: #fff;\n  transform: translateX(-50%);\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(0,0,0,1) 0%,\n  rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);\n}\n";
 var string2 = "";
 var n = 0;
 
@@ -178,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "9271" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "11825" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
