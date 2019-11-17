@@ -53,7 +53,7 @@ let string = `
 let string2 = "";
 let n = 0;
 
-let step = function () {
+let step = function() {
   setTimeout(() => {
     if (string[n] === "\n") {
       // 如果是回车，改为<br>
@@ -69,6 +69,7 @@ let step = function () {
     style.innerHTML = string.substring(0, n);
     // 自动向下滚动
     window.scrollTo(0, 99999);
+    html.scrollTo(0, 99999);
     if (n < string.length - 1) {
       n += 1;
       step();
