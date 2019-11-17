@@ -15,7 +15,7 @@ let string = `
 **/
 #bagua {
   border-radius: 50%;
-  box-shadow:0 0 3px rgba(0,0,0,0.5);
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
   border: none;
 }
 /* 八卦是阴阳形成的
@@ -43,7 +43,7 @@ let string = `
   height: 100px;
   bottom: 0;
   left: 50%;
-  background:#fff;
+  background: #fff;
   transform: translateX(-50%);
   border-radius: 50%;
   background: radial-gradient(circle, rgba(0,0,0,1) 0%,
@@ -53,7 +53,7 @@ let string = `
 let string2 = "";
 let n = 0;
 
-let step = function() {
+let step = function () {
   setTimeout(() => {
     if (string[n] === "\n") {
       // 如果是回车，改为<br>
